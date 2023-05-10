@@ -1,0 +1,33 @@
+# The URL the site will be built for
+base_url = "https://nadanix.com"
+title = "Juanjo Presa"
+# The site theme to use.
+theme = "Hermit_Zola"
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
+
+[markdown]
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = true
+
+[extra]
+# Put all your custom variables here
+home_subtitle = "Nada. Automatizador. Nix."
+footer_copyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+hermit_menu = [
+  { link = "/blog", name = "Blog" },
+  { link = "/about", name = "Acerca de" }
+]
+hermit_social = [
+  { name = "twitter", link = "https://twitter.com/nada.nix" },
+  { name = "github", link = "https://github.com/oneingan" },
+  { name = "email", link = "mailto:hola@nadanix.com" },
+  { name = "linkedin", link = "https://linkedin.com/in/juanjo-presa" }
+]
+
+[extra.author]
+name = "Juanjo Presa"
+email = "hola@nadanix.com"
